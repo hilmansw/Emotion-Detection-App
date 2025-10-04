@@ -3,6 +3,7 @@ import joblib
 import re
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -31,11 +32,11 @@ stop_words = set(stopwords.words('indonesian'))
 # ==========================
 def preprocess_text(text):
     text = str(text).lower()
-    text = re.sub(r'(.)\1+', r'\1\1', text)      # reduksi huruf berulang
-    text = re.sub(r'[^a-zA-Z\s]', ' ', text)     # hanya huruf & spasi
-    text = ' '.join(text.split())                # hilangkan spasi ganda
-    tokens = word_tokenize(text)                 # tokenisasi
-    tokens = [word for word in tokens if word not in stop_words]  # stopword removal
+    text = re.sub(r'(.)\1+', r'\1\1', text) 
+    text = re.sub(r'[^a-zA-Z\s]', ' ', text) 
+    text = ' '.join(text.split()) 
+    tokens = word_tokenize(text) 
+    tokens = [word for word in tokens if word not in stop_words]
     return ' '.join(tokens)
 
 # ==========================
