@@ -10,7 +10,7 @@ This project uses **Machine Learning models** (Naive Bayes, Random Forest, and S
 1. **Clone repository:**
 
 ```bash
-git clone https://github.com/hilmansw/streamlit-emotion-detector.git
+git clone https://github.com/hilmansw/emotion-detection-app.git
 cd streamlit-emotion-detector
 ```
 
