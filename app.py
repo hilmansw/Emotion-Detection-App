@@ -3,6 +3,8 @@ import joblib
 import re
 import nltk
 from nltk.tokenize import word_tokenize
+nltk.download('punkt')
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 nltk.download('stopwords')
 import warnings
