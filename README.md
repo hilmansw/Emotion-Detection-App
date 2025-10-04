@@ -5,31 +5,6 @@ This project uses **Machine Learning models** (Naive Bayes, Random Forest, and S
 
 ---
 
-## 📂 Project Structure
-
-project-root/
-│
-├── app.py # Main Streamlit app
-│
-├── encoder/ # Label encoders
-│ ├── label_encoder_emotion.pkl
-│ └── label_encoder_sentiment.pkl
-│
-├── model/ # Trained ML models
-│ ├── naive_bayes_model.pkl
-│ ├── naive_bayes_model_v2.pkl
-│ ├── random_forest_model.pkl
-│ ├── random_forest_model_v2.pkl
-│ ├── svm_model.pkl
-│ └── svm_model_v2.pkl
-│
-├── vectorizer/
-│ └── tfidf_vectorizer.pkl
-│
-└── emotion_env/
-
----
-
 ## 🚀 Installation
 
 1. **Clone repository:**
