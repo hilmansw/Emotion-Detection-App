@@ -11,7 +11,7 @@ This project uses **Machine Learning models** (Naive Bayes, Random Forest, and S
 
 ```bash
 git clone https://github.com/hilmansw/emotion-detection-app.git
-cd streamlit-emotion-detector
+cd emotion-detection-app
 ```
 
 2. Create virtual environment (optional but recommended):
